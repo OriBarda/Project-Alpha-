@@ -1,0 +1,133 @@
+.h1 {
+    font-style: italic;
+    font-size: 60px;
+    font-family: fantasy;
+    font-weight: bold;
+    color: rgb(249, 174, 23);
+}
+
+.body-1 {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/544/126/desktop-wallpaper-related-keywords-suggestions-for-movie-theater-backgrounds-1215x734-for-your-mobile-tablet-movie-screen.jpg);
+    background-size: 95%;
+    background-attachment: fixed;
+    color: rgb(199, 199, 199);
+}
+
+.image-1,
+.image-2,
+.image-3 {
+    width: 120px;
+    border-radius: 5px;
+    transition: box-shaodw 2s;
+    cursor: pointer;
+    border: 4px rgb(255, 149, 29) solid;
+    transition: transform .2s;
+    margin-left: 15px;
+}
+
+.image-1:hover,
+.image-2:hover,
+.image-3:hover {
+    box-shadow: 5px 5px 5px rgba(red, green, blue, 10);
+    opacity: 70%;
+    border: 4px rgb(255, 149, 29) dotted;
+    transform: scale(1.15)
+}
+
+
+.search-bar {
+    font-size: 20px;
+    background-color: rgb(198, 198, 198);
+    color: rgb(0, 9, 71);
+    border-radius: 35px;
+    margin-bottom: 8px;
+}
+
+.shides,
+.shutterdes,
+.thingdes {
+    padding: 10px;
+    width: 300px;
+}
+
+.imgsk,
+.shutterdl,
+.thingjwc {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+
+}
+
+.shiaut,
+.shutteraut,
+.thingaut {
+    font-style: italic;
+    display: inline-block;
+    font-weight: bold;
+}
+
+/* .div-1,
+.div-2 {
+    width: 500px;
+    height: 335px;
+} */
+
+header {
+    background-color: orange;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 5px;
+    height: 30px;
+    padding-top: 10px;
+    align-items: center;
+    box-shadow: 0 0 25px 0 rgb(77, 68, 68);
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 35px;
+}
+
+header * {
+    display: inline;
+}
+
+header li a {
+    color: rgb(32, 32, 32);
+    text-decoration: solid;
+}
+
+.A:hover,
+.B:hover,
+.C:hover,
+.D:hover {
+    text-decoration: underline;
+    opacity: 80%;
+    box-shadow: 0px 1px 1px 0px rgb(77, 68, 53);
+}
+
+.div0 {
+    display: flex;
+    flex-direction: column;
+}
+
+.span-1 {
+    border-color: darkblue;
+    border-width: 5px;
+}
+
+.A,
+.B,
+.C,
+.D {
+    border-right: 1px black solid;
+    padding-top: 18px;
+    padding-bottom: 7px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.checked {
+    color: orange;
+}
